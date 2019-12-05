@@ -1,0 +1,548 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	/*font:600 16px/18px 'Open Sans',sans-serif;*/
+	
+    margin:0;
+	height:100%;
+	width:100%;
+	
+ 
+}
+header{
+	width: 100%;
+}
+.container1{
+	margin:0;
+	margin-top:0px;
+	position:relative;
+	width:100%;
+	height:100%;
+	
+}
+
+.login-form img{
+width:525px;
+height:300px;
+position:relative;
+margin-top:0px;
+}
+
+.login-form h1{
+	font-size:30px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: center;
+	margin-top:30px;
+}
+
+.login-form h2{
+	font-size:23px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: left;
+	margin-top:30px;
+                margin-left:30px;
+}
+
+.login-form h3{
+	font-size:20px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: left;
+	margin-top:18px;
+                margin-left:30px;
+}
+
+.login-form p{
+	font-size:20px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: left;
+	margin-top:20px;
+	margin-left:30px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin-left:20px;
+
+}
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* custom styles */
+
+.head label {
+  display: block;
+  padding-left:30px;
+  font-size:20px;
+ padding-top:20px;
+}
+.head input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 4px 10px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 260px;
+  font-size:20px;
+  margin-left: 30px;
+  margin-top:10px;
+}
+
+.head hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width:500px;
+}
+
+.radio{
+width:50%;
+}
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-left:40px;
+    vertical-align: bottom
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+select{
+margin-left:30px;
+width:260px;
+height:35px;
+font-size:20px;
+font-family:Avanta Garde;
+font-style: normal;
+color: #696969;
+margin-top:5px;
+}
+
+.button{
+	background-color:#4B0082;	
+	margin-left:120px;
+  	color: white;
+  	padding: 12px 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 25px;
+	
+}
+
+/*logo*/
+.logo img{
+	
+	width:105px;
+	height:70px;
+	float: left;
+	position:relative;
+	z-index:10000;
+	
+}
+/*header nav*/
+.menubar{
+	margin-top:0;
+   	 background:#000;
+    	width:100%;
+	height:70px;
+	padding-bottom:0px;
+
+      }
+ul{
+    text-align:left;
+   float:right;
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:inline;
+   z-index:9999;
+      }
+ul li{
+    font:bold;
+    list-style:none;
+    padding: 20px 15px;
+    position:relative;
+    display:inline-block;
+    background:#;
+    width:180px;
+  z-index:9999;
+}
+
+ul li a{
+    text-decoration:none;
+    padding:30px 25px;
+    font-size:20px;
+    color:#E6E6FA;
+    text-align: center;      
+}
+
+.menubar ul li:hover{
+    background: #000;
+	transition: 0.9s;
+      }
+
+ul  ul {
+    background:#000;
+    position:absolute;
+    top:60px;
+    left:0;
+    width=150px;
+    display:none;
+     }
+
+ ul li:hover > ul{
+    background:#000;
+    width=150px;
+    display:block;
+	
+	}
+ul ul ul{
+    margin-left:179px;
+	padding:0;
+	top:0px;
+	position:absolute;
+	background: #000;
+	}	
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(0,0,0,.7);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:5px;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#C71585;
+	border-color:#fff; /*underline*/
+	margin-bottom:10px;
+}
+.login-form{
+	margin-top:50px;
+	min-height:340px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.sign-in-htm{
+	margin top:50px;
+}
+
+.sign-up-htm{
+	margin top:-1000px;
+}
+
+.login-form .group{
+	margin-bottom:18px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	font-size:15px;
+	width:100%;
+	color:#fff; /*signinlabel*/
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 25px;
+	border-radius:25px;
+	background:rgba(219,112,147,.1);/*inputs*/
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#C71585; /*labels*/
+	font-size:13px;
+}
+.login-form .group .button{
+	background:#C71585; /*signupbutton*/
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+
+.karthi button{
+	padding: 15px 32px;
+	font-size: 16px;
+  margin: 4px 2px;
+ 
+}
+
+
+
+.hr{
+	height:2px;
+	margin:60px 0 37px 0;
+	background:rgba(255,182,193,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+footer{
+
+	height:338px;
+	background-color:#000;
+}
+
+.flogo img{
+	
+	width:120px;
+	height:110px;
+	margin-top:40px;
+	margin-bottom:0px;
+	margin-left:0;
+	
+}
+
+.v1{
+	border-left: 1px solid white;
+  height: 130px;
+  margin-top:-120px;
+ margin-bottom:0px;
+  margin-left:150px;
+  margin-right:0px;
+}
+.add h6{
+	font-style: normal;
+       	color:#fff;
+    margin-left:170px;
+	font-size:20px;
+	float:left;
+	margin-bottom:0px;
+	margin-top:-100px;
+}
+.v2{
+	border-left: 1px solid white;
+  height: 130px;
+  margin-top:-130px;
+ margin-bottom:0px;
+  margin-left:350px;
+  margin-right:opx;
+}
+.cont h6{
+	font-style: normal;
+       	color:#fff;
+    margin-left:370px;
+	font-size:20px;
+	float:left;
+	margin-bottom:0px;
+	margin-top:-100px;
+}
+
+
+
+.foot{
+	margin-top:10px;
+	margin-bottom:0px;
+	float:left;
+	font-style:normal;
+	list-style:none;
+}
+.foot li a{
+	font-size:20px;
+	padding:10px;
+	color: rgb(255,255,255);
+}
+footer h5{
+	font-style: normal;
+       	color:#fff;
+	text-align:center;
+	font-size:35px;
+	margin-top:50px;
+	padding-top:10px;
+	margin-bottom:20px;
+	font-family: Palatino;	
+}
+
+.fw h6{
+	font-style: normal;
+       	color:#fff;
+	text-align:right;
+	font-size:25px;
+	margin-top:-80px;
+	margin-right:150px;
+	margin-bottom:0px;
+	font-family: Palatino;
+	float:right;
+}
+
+.fa {
+  float:right;
+  font-size: 38px;
+  width: 55px;
+  text-align:center;
+  text-decoration: none;
+  margin-right:0px;
+  border-radius: 50px;
+  height:40px;
+  margin:18px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #fff;
+  color: black;
+}
+
+.fa-twitter {
+    background: #fff;
+   color: black;
+
+}
+.fa-instagram {
+     background: #fff;
+     color: black; 
+}
+
+.cp-text
+{
+ font-size: 18px;
+ float: left;
+ color: rgb(255,255,255);
+ text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+ opacity: 0.6;
+ margin-left:0px;
+ 
+}
